@@ -20,15 +20,15 @@ The first thing that was different for this dataset was the fact that it was in 
 
 ## Visualization
 
-To visualize I used plotly express. I used the scatter mapbox plot to display our fire data. Plotly makes it pretty easy to display geospatial data. Considering I could not get geopandas to install, a common problem it seems for windows users, plotly express was a breath of fresh air. I set the lat argument equal to out latitude column and the lon arg to the longitude column. From there I added the hover data of the year the fire happened and the size of the fire. ![](RackMultipart20220504-1-4baows_html_a4f36faa39b68784.png)
+To visualize I used plotly express. I used the scatter mapbox plot to display our fire data. Plotly makes it pretty easy to display geospatial data. Considering I could not get geopandas to install, a common problem it seems for windows users, plotly express was a breath of fresh air. I set the lat argument equal to out latitude column and the lon arg to the longitude column. From there I added the hover data of the year the fire happened and the size of the fire. ![](https://i.imgur.com/wP4BEPf.png)
 
 _Figure 1 US Wildfires form 1995-2015_
 
-![](RackMultipart20220504-1-4baows_html_9ec84109097e8ff8.png)
+![](https://i.imgur.com/zvtnAHj.png)
 
 _Figure 2 Alaskan Wildfires_
 
-![](RackMultipart20220504-1-4baows_html_618ad3bd79fadcd2.png)
+![](https://i.imgur.com/CFdhPgE.png)
 
 _Figure 3 Wildfires in the north east_
 
@@ -60,15 +60,15 @@ The first thing that I needed to do was to load this entire dataset into a data 
 
 For my visualization, I used plotly express again. This time I used the desity\_mapbox plot. I really wanted to see where these trips originated from not so much where they ended, so I se the lat and lon args to their respective pickup coordinates in the data frame.
 
-![](RackMultipart20220504-1-4baows_html_ab2a4002e75f0af3.png)
+![](https://i.imgur.com/M8xRTPv.png)
 
 _Figure 4 All 10,000 Rides_
 
-![](RackMultipart20220504-1-4baows_html_2fbf55ccb8f7a996.png)
+![](https://i.imgur.com/GU0zspo.png)
 
 _Figure 5 Outside the main entrance to Central Park_
 
-![](RackMultipart20220504-1-4baows_html_647a0766e5a3e157.png)
+![](https://i.imgur.com/jEnaatP.png)
 
 _Figure 6 Outside of LaGuardia Airport (LGA)_
 
@@ -96,7 +96,8 @@ The dataset contains ct scans from 11 different patients with brain tumors. Each
 
 To visualize the .nill files. I first chose a random patient. I then used the package nilearn and nibabel to plot these .nii files. Using the built in function plotting.plot\_img from the nilearn package, we can plot all four images.
 
-![Shape2](RackMultipart20220504-1-4baows_html_8034d54fddee42a7.gif) ![Shape1](RackMultipart20220504-1-4baows_html_8034d54fddee42a7.gif) ![](RackMultipart20220504-1-4baows_html_50f2408fc76c273.png) ![](RackMultipart20220504-1-4baows_html_34a47b6a8db7287a.png) ![](RackMultipart20220504-1-4baows_html_c96aa9cc1696baf8.png) ![](RackMultipart20220504-1-4baows_html_36eb4e76bc8d8dc3.png)
+![](Rhttps://i.imgur.com/GDY8HbC.png) 
+![](https://i.imgur.com/o1nXxFi.png)
 
 ## Analysis
 
@@ -112,4 +113,4 @@ As stated above, I was out of my comfort zone on this dataset. I am about the fa
 
 For fun I also included a point cloud visualization that I made with the lidar camera on my iPhone. I used the app Polycam to take a point cloud representation of my bedroom/office. I then used Open3d to visualize it in python. You can see this in the pointcloud.py file.
 
-![](RackMultipart20220504-1-4baows_html_e38ac3822239e1cc.jpg)
+![](https://i.imgur.com/P1C67xh.png)
