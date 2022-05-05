@@ -96,8 +96,12 @@ The dataset contains ct scans from 11 different patients with brain tumors. Each
 
 To visualize the .nill files. I first chose a random patient. I then used the package nilearn and nibabel to plot these .nii files. Using the built in function plotting.plot\_img from the nilearn package, we can plot all four images.
 
-![](Rhttps://i.imgur.com/GDY8HbC.png) 
 ![](https://i.imgur.com/o1nXxFi.png)
+![](https://i.imgur.com/GDY8HbC.png) 
+
+
+![](https://i.imgur.com/0xaK6BY.png) 
+![](https://i.imgur.com/RqJx7Nm.png) 
 
 ## Analysis
 
